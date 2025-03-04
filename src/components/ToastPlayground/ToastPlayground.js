@@ -8,7 +8,6 @@ import Toast from "../Toast";
 const VARIANT_OPTIONS = ['notice', 'warning', 'success', 'error'];
 
 function ToastPlayground() {
-
     const [message, setMessage] = React.useState("");
     const [variant, setVariant] = React.useState(VARIANT_OPTIONS[0]);
     const [showToast, setShowToast] = React.useState(false)
