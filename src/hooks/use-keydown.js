@@ -7,6 +7,7 @@ function useKeydown(key, callback) {
                 callback();
             }
         }
+
         window.addEventListener('keydown', handleKeyDown)
         return () => {
             window.removeEventListener('keydown', handleKeyDown)
